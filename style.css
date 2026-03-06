@@ -96,6 +96,13 @@ h1, h2, h3, h4 {
   transition: background var(--transition);
 }
 
+.logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .logo-mark svg {
   width: 22px;
   height: 22px;
