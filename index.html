@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flave Treats – Bespoke Chocolate Creations</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">
+        <!-- Placeholder logo icon (chocolate bar) -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 4h20v3H2zM2 9h4v11H2zM8 9h4v11H8zM14 9h4v11h-4zM20 9h2v11h-2z"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="top">Flave Treats</span>
+        <span class="sub">Artisan Chocolate</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services &amp; Pricing</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+    </ul>
+
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <div class="page-wrapper">
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-tag">Handcrafted · Bespoke · Indulgent</span>
+        <h1 class="hero-title">
+          Chocolate made<br>
+          <em>for every</em><br>
+          <strong>occasion</strong>
+        </h1>
+        <p class="hero-body">
+          At Flave Treats, we craft bespoke chocolate creations entirely by hand — from luxury gift boxes and wedding favours to personalised celebration bars. Every piece is made to order with the finest ingredients and a whole lot of love.
+        </p>
+        <div class="hero-actions">
+          <a href="services.html" class="btn btn-primary">See Our Services</a>
+          <a href="contact.html" class="btn btn-secondary">Place an Order</a>
+        </div>
+      </div>
+
+      <div class="hero-panel" style="padding:0; overflow:hidden; position:relative;">
+
+  <!-- Slideshow images — replace src="..." with your own photo paths -->
+
+  <div class="hero-panel" style="padding:0; overflow:hidden; position:relative;">
+
+  <!-- Slideshow images — replace src="..." with your own photo paths -->
+  <div class="">
+    <div class="slide active">
+      <img src="flavetreats1.jpg" alt="Crafting chocolate truffles"/>
+    </div>
+  </div>
+
+  <!-- Dot indicators -->
+  <div class="slide-dots">
+    <span class="dot active" onclick="goToSlide(0)"></span>
+    <span class="dot" onclick="goToSlide(1)"></span>
+    <span class="dot" onclick="goToSlide(2)"></span>
+    <span class="dot" onclick="goToSlide(3)"></span>
+  </div>
+
+</div>
+    </section>
+
+
+    <section class="section section-white">
+      <div class="section-header reveal">
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-title">Crafted with <em>passion</em>,<br>gifted with love</h2>
+        <p class="section-body">
+          We're a small, independent chocolate maker based in Maryland, United States. Every treat we create is made entirely by hand using quality ingredients — no factories, no shortcuts. Just real craft, real care, and real flavour.
+        </p>
+      </div>
+
+      <div class="cards-grid" style="max-width:900px; margin: 0 auto;">
+        <div class="card reveal">
+          <div class="card-icon">🌿</div>
+          <h3>Quality Ingredients</h3>
+          <p>We use single-origin cacao and seasonal, natural flavourings. No artificial colours, no compromise.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🤝</div>
+          <h3>Fully Personalised</h3>
+          <p>Every order is tailored to you — names, messages, colours, flavours. Truly one of a kind.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">📦</div>
+          <h3>Beautifully Packaged</h3>
+          <p>Presentation is part of the gift. Our packaging is as thoughtful as the chocolate inside.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         COLLECTIONS PREVIEW
+    ═══════════════════════════════════════════ -->
+    <section class="section section-milk">
+      <div class="section-header reveal">
+        <span class="section-label">Collections</span>
+        <h2 class="section-title">Something for <em>every</em> occasion</h2>
+        <p class="section-body">From intimate gifts to grand celebrations — browse our most popular collections below, or view the full range with pricing.</p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-icon">🎁</div>
+          <h3>Gift Boxes</h3>
+          <p>Hand-picked chocolates in luxuriously presented boxes. Choose your flavours and personalise the card.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">💍</div>
+          <h3>Wedding Favours</h3>
+          <p>Elegant, personalised favours with custom names and dates that your guests will treasure.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🎂</div>
+          <h3>Celebration Bars</h3>
+          <p>Statement chocolate bars with edible florals, gold leaf, and bespoke messages — a showstopping gift.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🌹</div>
+          <h3>Truffles</h3>
+          <p>Silky ganache truffles in seasonal flavours — champagne, raspberry, sea salt caramel and more.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">🏢</div>
+          <h3>Corporate Hampers</h3>
+          <p>Impress clients and reward your team. Branded packaging and tailored flavour profiles available.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">✨</div>
+          <h3>Fully Bespoke</h3>
+          <p>Something unique in mind? We love a challenge. Get in touch and we'll bring your vision to life.</p>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:3rem;" class="reveal">
+        <a href="services.html" class="btn btn-primary">View All Services &amp; Prices</a>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         TESTIMONIALS
+    ═══════════════════════════════════════════ -->
+    <section class="section section-dark">
+      <div class="section-header reveal">
+        <span class="section-label">Kind Words</span>
+        <h2 class="section-title"><em>Loved</em> by our customers</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="t-quote">"</div>
+          <p>I ordered the Luxe box for my mum's birthday and she was absolutely speechless. The packaging alone is stunning — the chocolates were pure heaven.</p>
+          <span class="t-author">— Fortune Ovienrioba, England</span>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="t-quote">"</div>
+          <p>Flave Treats did all our wedding favours and every single guest commented on how beautiful they were. Professional, friendly, and absolutely delicious.</p>
+          <span class="t-author">— Joy & David Adeyeye, Maryland</span>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="t-quote">"</div>
+          <p>We commissioned bespoke corporate hampers and the result exceeded all expectations. The team was brilliant to work with — highly recommend.</p>
+          <span class="t-author">— Faith Ehidiamhen, Maryland</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         CTA BAND
+    ═══════════════════════════════════════════ -->
+    <section class="section-sm section-beige" style="text-align:center;">
+      <div class="reveal">
+        <span class="section-label">Ready to order?</span>
+        <h2 class="section-title" style="margin-bottom:1.2rem;">Let's create something <em>beautiful</em></h2>
+        <p style="color:var(--warm-grey); font-size:0.95rem; margin-bottom:2.2rem; max-width:440px; margin-left:auto; margin-right:auto; line-height:1.85;">
+          Tell us about your occasion and we'll get back to you within 24 hours with ideas and a personalised quote.
+        </p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+          <a href="gallery.html" class="btn btn-secondary">View Our Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="text-decoration:none;">
+            <div class="logo-mark">
+              <svg viewBox="0 0 24 24"><path d="M2 4h20v3H2zM2 9h4v11H2zM8 9h4v11H8zM14 9h4v11h-4zM20 9h2v11h-2z"/></svg>
+            </div>
+            <div class="logo-text">
+              <span class="top">Flave Treats</span>
+              <span class="sub">Artisan Chocolate</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Bespoke chocolate creations, crafted by hand with care in Maryland, US.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services &amp; Pricing</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact &amp; Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="services.html">Gift Boxes</a></li>
+            <li><a href="services.html">Wedding Favours</a></li>
+            <li><a href="services.html">Truffles</a></li>
+            <li><a href="services.html">Corporate Hampers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@flavetreats.co.uk">hello@flavetreats.co.uk</a></li>
+            <li><a href="tel:+441234567890">+44 712345678</a></li>
+            <li><a href="#">@flavetreats</a></li>
+            <li><a href="#">Maryland, US</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Flave Treats. All rights reserved. Handcrafted with love.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- end page-wrapper -->
+
+  <script src="script.js"></script>
+</body>
+</html>

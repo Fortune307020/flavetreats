@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact &amp; Order – Flave Treats</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 4h20v3H2zM2 9h4v11H2zM8 9h4v11H8zM14 9h4v11h-4zM20 9h2v11h-2z"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <span class="top">Flave Treats</span>
+        <span class="sub">Artisan Chocolate</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services &amp; Pricing</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="nav-cta active">Order Now</a></li>
+    </ul>
+
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <!-- ══════════════════════════════════════════
+         PAGE HERO
+    ═══════════════════════════════════════════ -->
+    <div class="page-hero">
+      <div class="page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact &amp; Order</span>
+        </div>
+        <span class="page-hero-tag">Get in Touch</span>
+        <h1>Let's create something<br><em>together</em></h1>
+        <p>Fill in the form and we'll be in touch within 24 hours to discuss your order, confirm details, and share a personalised quote where needed.</p>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════
+         CONTACT LAYOUT
+    ═══════════════════════════════════════════ -->
+    <section class="section section-white">
+      <div class="contact-layout">
+
+        <!-- Info column -->
+        <div class="contact-info-col reveal">
+          <h2>We'd love to<br>hear from <em>you</em></h2>
+          <p>
+            Whether you know exactly what you want or you're just starting to explore ideas — we're here to help. No order is too small or too ambitious.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <span class="c-label">Email</span>
+              <span class="c-value"><a href="mailto:favourkiki72@yahoo.com">hello@flavetreats.co.uk</a></span>
+            </div>
+            <div class="contact-detail-item">
+              <span class="c-label">Phone</span>
+              <span class="c-value"><a href="tel:+441234567890">+44 1234 567 890</a></span>
+            </div>
+            <div class="contact-detail-item">
+              <span class="c-label">Location</span>
+              <span class="c-value">Maryland, United States</span>
+            </div>
+            <div class="contact-detail-item">
+              <span class="c-label">Response Time</span>
+              <span class="c-value">Within 24 hours</span>
+            </div>
+            <div class="contact-detail-item">
+              <span class="c-label">Order Lead Time</span>
+              <span class="c-value">Typically 5–7 days</span>
+            </div>
+          </div>
+
+          <!-- Social -->
+          <div class="social-row">
+            <div class="social-btn" title="Instagram">Ig</div>
+            <div class="social-btn" title="Facebook">Fb</div>
+            <div class="social-btn" title="TikTok">Tk</div>
+          </div>
+
+          <!-- Info box -->
+          <div style="margin-top:2.5rem; padding:1.6rem; background:var(--milk); border-left:3px solid var(--accent); border-radius:0 2px 2px 0;">
+            <p style="font-size:0.85rem; color:var(--warm-grey); line-height:1.8;">
+              <strong style="color:var(--brown); display:block; margin-bottom:0.3rem;">🎁 Wedding &amp; bulk orders</strong>
+              For wedding favours, corporate hampers, or orders of 20+ boxes, please mention the quantity in your message and we'll provide a custom quote.
+            </p>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <div class="reveal">
+          <div id="contactForm">
+            <div class="form-col">
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="fname">First &amp; Last Name *</label>
+                  <input type="text" id="fname" placeholder="Jane Smith" required/>
+                </div>
+                <div class="form-group">
+                  <label for="femail">Email Address *</label>
+                  <input type="email" id="femail" placeholder="jane@gmail.com" required/>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="fphone">Phone Number</label>
+                  <input type="tel" id="fphone" placeholder="+44 7700 900 000"/>
+                </div>
+                <div class="form-group">
+                  <label for="fproduct">Interested In *</label>
+                  <select id="fproduct" required>
+                    <option value="">Select a collection…</option>
+                    <option value="petite">Gift Box – Petite (£18)</option>
+                    <option value="luxe">Gift Box – Luxe (£38)</option>
+                    <option value="grand">Gift Box – Grand (£70)</option>
+                    <option value="wedding">Wedding Favours</option>
+                    <option value="corporate">Corporate Hamper</option>
+                    <option value="truffles">Truffles (from £12)</option>
+                    <option value="bar">Celebration Bar (from £15)</option>
+                    <option value="bespoke">Fully Bespoke</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="fdate">Occasion / Date Needed</label>
+                  <input type="text" id="fdate" placeholder="e.g. 14 Feb 2026 – Valentine's Day"/>
+                </div>
+                <div class="form-group">
+                  <label for="fquantity">Quantity (approx.)</label>
+                  <input type="text" id="fquantity" placeholder="e.g. 1 box / 50 favours"/>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="fflavours">Flavour Preferences</label>
+                <input type="text" id="fflavours" placeholder="e.g. Sea salt caramel, raspberry dark, no nuts please"/>
+              </div>
+
+              <div class="form-group">
+                <label for="fmessage">Tell us about your order</label>
+                <textarea id="fmessage" placeholder="Share any details about your occasion, personalisation requests, packaging preferences, delivery address, or anything else we should know…"></textarea>
+              </div>
+
+              <div>
+                <button class="btn btn-primary" id="submitBtn" style="width:100%; padding:1rem; font-size:0.8rem; letter-spacing:0.2em;">
+                  Send Enquiry
+                </button>
+                <p style="font-size:0.75rem; color:var(--warm-grey); text-align:center; margin-top:0.8rem; line-height:1.6;">
+                  We'll reply within 24 hours. Your details are never shared with third parties.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Success message -->
+          <div class="form-success" id="formSuccess">
+            <div style="font-size:3rem; margin-bottom:1rem;">🎉</div>
+            <h3>Thank you!</h3>
+            <p style="margin-top:0.6rem; line-height:1.8;">
+              We've received your enquiry and will be in touch within 24 hours. We can't wait to create something special for you.
+            </p>
+            <a href="index.html" class="btn btn-primary" style="margin-top:1.5rem; display:inline-block;">Back to Home</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FAQ
+    ═══════════════════════════════════════════ -->
+    <section class="section section-milk">
+      <div class="section-header reveal">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Frequently asked <em>questions</em></h2>
+      </div>
+
+      <div style="max-width:750px; margin:0 auto; display:flex; flex-direction:column; gap:1px;">
+
+        <div class="faq-item reveal" style="background:var(--white); padding:1.8rem 2rem; border:1px solid var(--beige);">
+          <h4 style="font-family:'Cormorant',serif; font-size:1.2rem; font-weight:400; color:var(--brown); margin-bottom:0.6rem;">How far in advance should I order?</h4>
+          <p style="font-size:0.875rem; color:var(--warm-grey); line-height:1.8;">We recommend ordering at least 5–7 days in advance for standard boxes, and 2–4 weeks for wedding or large corporate orders. Rush orders may be possible — just ask!</p>
+        </div>
+
+        <div class="faq-item reveal" style="background:var(--white); padding:1.8rem 2rem; border:1px solid var(--beige);">
+          <h4 style="font-family:'Cormorant',serif; font-size:1.2rem; font-weight:400; color:var(--brown); margin-bottom:0.6rem;">Can I choose my own flavours?</h4>
+          <p style="font-size:0.875rem; color:var(--warm-grey); line-height:1.8;">Absolutely. All orders are made to your preferences. You can mix and match from our current flavour range, and we'll let you know if any seasonal specials are available.</p>
+        </div>
+
+        <div class="faq-item reveal" style="background:var(--white); padding:1.8rem 2rem; border:1px solid var(--beige);">
+          <h4 style="font-family:'Cormorant',serif; font-size:1.2rem; font-weight:400; color:var(--brown); margin-bottom:0.6rem;">Do you offer delivery?</h4>
+          <p style="font-size:0.875rem; color:var(--warm-grey); line-height:1.8;">Yes! We offer free local delivery within Corby and surrounding areas. Nationwide shipping is available at a small additional cost. Please mention your delivery postcode when ordering.</p>
+        </div>
+
+        <div class="faq-item reveal" style="background:var(--white); padding:1.8rem 2rem; border:1px solid var(--beige);">
+          <h4 style="font-family:'Cormorant',serif; font-size:1.2rem; font-weight:400; color:var(--brown); margin-bottom:0.6rem;">Do you cater for dietary requirements?</h4>
+          <p style="font-size:0.875rem; color:var(--warm-grey); line-height:1.8;">We can accommodate vegan, dairy-free, and gluten-free requests for most collections. Please always mention any allergies or dietary needs in your order and we'll do our best to accommodate.</p>
+        </div>
+
+        <div class="faq-item reveal" style="background:var(--white); padding:1.8rem 2rem; border:1px solid var(--beige);">
+          <h4 style="font-family:'Cormorant',serif; font-size:1.2rem; font-weight:400; color:var(--brown); margin-bottom:0.6rem;">How do I pay?</h4>
+          <p style="font-size:0.875rem; color:var(--warm-grey); line-height:1.8;">Once we've confirmed your order via email, we'll send payment details. We accept bank transfer and most major payment methods. A deposit may be required for large orders.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="text-decoration:none;">
+            <div class="logo-mark">
+              <svg viewBox="0 0 24 24"><path d="M2 4h20v3H2zM2 9h4v11H2zM8 9h4v11H8zM14 9h4v11h-4zM20 9h2v11h-2z"/></svg>
+            </div>
+            <div class="logo-text">
+              <span class="top">Flave Treats</span>
+              <span class="sub">Artisan Chocolate</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Bespoke chocolate creations, crafted by hand with care in Corby, England.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services &amp; Pricing</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact &amp; Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="services.html">Gift Boxes</a></li>
+            <li><a href="services.html">Wedding Favours</a></li>
+            <li><a href="services.html">Truffles</a></li>
+            <li><a href="services.html">Corporate Hampers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:favourkiki72@yahoo.com">hello@flavetreats.co.uk</a></li>
+            <li><a href="tel:+441234567890">+44 712345678</a></li>
+            <li><a href="#">@flavetreats</a></li>
+            <li><a href="#">Maryland, US</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Flave Treats. All rights reserved. Handcrafted with love.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
